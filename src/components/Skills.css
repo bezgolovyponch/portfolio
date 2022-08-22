@@ -1,0 +1,79 @@
+@media only screen and (max-width: 800px) {
+    .columns {
+        flex-direction: column !important;
+    }
+    .column {
+        width: auto !important;
+        padding: 10% !important;
+    }
+    .column:nth-child(2) {
+        border-width: 2px;
+        border-right-style: none !important;
+        border-left-style: none !important;
+        border-color: #D3D3D3;
+        border-top-style: dotted;
+        border-bottom-style: dotted;
+    }
+    
+}
+
+
+
+
+.Skills-wrapper {
+    /* max-width: fit-content; */
+    padding-top: 5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    justify-content: center;
+    display: flex;
+}
+.section-skills{
+    margin-top: -13rem;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 0 2px 2px 0 rgb(#D3D3D3 / 50%), 0 0 0 1px #e6ecf8;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#D3D3D3;
+    
+    
+}
+.narrow-container{
+    width: auto;
+    
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.column {
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    
+    /* border-width: 0.2px;
+    border-style: solid;
+    border-color:#D3D3D3; */
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    
+    
+}
+.card-icon {
+    
+}
+.column:nth-child(2) {border-width: 2px;
+    border-right-style: dotted;
+    border-left-style: dotted;;
+    border-color:#D3D3D3;}
+    

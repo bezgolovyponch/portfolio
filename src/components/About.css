@@ -1,0 +1,40 @@
+.about {
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-links {
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+.avatar {
+    margin-top: 2rem;
+}
+.web-dev {
+    max-width: 35rem;
+    max-height: 32rem;
+}
+.about-story-back {
+    background-color: #d5d2cb;
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 13rem;
+    
+    
+}
+.story-contain {
+    /* width: 65rem; */
+    margin-top: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 65rem;
+}

@@ -1,0 +1,237 @@
+.contact-section {
+    min-height:  14rem;
+    background-color: #d5d2cb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 4px;
+    border-top: solid 4px;
+    border-color: #757575;
+}
+.form-shaper {
+  /* display: flex;
+  padding: 4%;
+  border: solid black 16px; */
+  border-radius: 50px;
+}
+.form-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem ;
+    
+ }
+.h2-message {
+    /* min-height: 4rem; */
+    vertical-align: text-bottom;
+    vertical-align: bottom !important;
+}
+.contact-subtitle {
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contact-button {
+ /*  border-radius: 10px; */
+  background-color: transparent;
+  border-bottom: solid #757575 8px;
+  box-shadow: rgb(163, 157, 157) 0px -8px inset;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  padding: 10px;
+
+
+  /* position: fixed; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+button{
+  display: block;
+  font-size: 1.17em;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: gray;
+  background-color: transparent; 
+  /* border-bottom: solid #757575 4px;
+  box-shadow: inset;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  /* padding: 10px; */
+  cursor: pointer;
+  /* letter-spacing: 2px; */
+  /* transition: all .40s;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s; */
+}
+
+button:hover{
+  /* width: 300px; */
+ 
+}
+.contact-button:hover{
+  color: #000000;
+  border-color: black;
+  transition: ease-in-out 0.2s;
+  padding-right: 74px;
+  padding-left: 74px;
+
+
+}
+.submit-message {
+  text-align: center;
+}
+/* .h2-input {
+    width: 30vw ;
+    border-radius: 12px;
+} */
+.group        { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input         {
+    font-size: 1.17em;
+    padding:10px 10px 10px 5px;
+    text-align: center;
+    display:block;
+    width: 18rem;
+    border:none;
+    border-bottom:8px solid #757575;
+    background-color: transparent !important;
+  }
+  input:focus     { outline:none; }
+
+
+  /* LABEL ======================================= */
+
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label    {
+    top:-20px;
+    font: size 1.17em;;
+    color:#5264AE;
+  }
+  
+  
+  /* BOTTOM BARS ================================= */
+  .bar  { position:relative; display:block; width:300px; }
+  .bar:before, .bar:after   {
+    content:'';
+    height: 8px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#000000; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  /* .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+   */
+  /* active state */
+  input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  .collap-butto
+
+  
+  /* ANIMATIONS ================ */
+/*   @-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to  { width:0; background:transparent; }
+  } */
+  /* @-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to  { width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to  { width:0; background:transparent; }} */
+
+
+.collap-button {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.collap-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.collap-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.collap-button:active {
+  background-color: transparent;
+  outline: 0;
+}
+
+.collap-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .collap-button {
+    padding: 0 40px;
+  }
+}
