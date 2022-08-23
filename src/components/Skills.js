@@ -39,7 +39,7 @@ const Skills = () => {
                             </div>
                             <div className="mid-text">
                                 <h3 className="card-subtitle">
-                                    I enjoy designing and building things from scratch, turning ideas into the action in a browser.
+                                    I enjoy designing and building things from scratch, turning ideas into action in a browser.
                                 </h3>
                             </div>
                             <div className="bottom-text">

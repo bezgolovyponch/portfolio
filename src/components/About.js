@@ -25,7 +25,7 @@ export default function About() {
       <div className="about-story-back">
         <div className="story-contain">
         <h1 clas3Name="text-story">
-            Hi, I am Max, nice to meet you,
+            Hi, I am Max, nice to meet you!
           </h1>
           <h2 className="text-story"> 
           This page was created to stand out from the other applicants, as well as to show a piece of my work. Whether it came out or not is up to you to decide.
