@@ -34,7 +34,7 @@ const Footer = () => {
     <div className='real-footer'>
       <div className='social-links'>
     <a target="blank" href="https://https://github.com/bezgolovyponch/" >
-    <img src="https://www.svgrepo.com/show/341847/github.svg"></img>
+    <img alt='git-logo' src="https://www.svgrepo.com/show/341847/github.svg"></img>
 </a>
 </div>
         <h4>

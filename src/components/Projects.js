@@ -18,7 +18,7 @@ const Projects = () => {
    <button className="button-28">
       Open live
    </button>
-</a>
+</a> 
                             </div>
                         </div>
                     </div>
