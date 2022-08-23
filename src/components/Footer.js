@@ -33,12 +33,17 @@ const Footer = () => {
     </div >
     <div className='real-footer'>
       <div className='social-links'>
-    <a target="blank" href="https://https://github.com/bezgolovyponch/" >
+    <a target="blank"  href="https://github.com/bezgolovyponch/" >
     <img alt='git-logo' src="https://www.svgrepo.com/show/341847/github.svg"></img>
+
 </a>
+<h4 style={{paddingLeft: "2px"}}> 
+        <span/> my GitHub
+        </h4>
+
 </div>
         <h4>
-          Handcrafted by me ® Maxim Svistukhin
+          Handcrafted by me ®
         </h4>
       </div>
     </div>
