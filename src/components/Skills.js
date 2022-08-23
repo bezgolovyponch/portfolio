@@ -22,8 +22,8 @@ const Skills = () => {
                             </div>
                             <div className="bottom-text">
                                 <h3 className="card-subtitle">
-                                    Things I enjoy designing:
-                                    UX, UI, Web, Apps
+                                    Tools I use:
+                                    Figma, Sketch, Webflow
                                 </h3>
                             </div>
                         </div>
@@ -39,14 +39,13 @@ const Skills = () => {
                             </div>
                             <div className="mid-text">
                                 <h3 className="card-subtitle">
-                                    I value simple content structure,
-                                    clean design patterns, and thoughtful interactions.
+                                    I enjoy designing and building things from scratch, turning ideas into the action in a browser.
                                 </h3>
                             </div>
                             <div className="bottom-text">
                                 <h3 className="card-subtitle">
-                                    Things I enjoy designing:
-                                    UX, UI, Web, Apps
+                                    Languages + Tools I use: 
+                                    JavaScript (React),  HTML, CSS(SCSS, Bootstrap, Tailwind, flexbox), Git, Netlify, JSON
                                 </h3>
                             </div>
                         </div>
@@ -62,14 +61,13 @@ const Skills = () => {
                             </div>
                             <div className="mid-text">
                                 <h3 className="card-subtitle">
-                                    I value simple content structure,
-                                    clean design patterns, and thoughtful interactions.
+                                I like to continuously improve the procedures I responsible for and see the team happy and motivated. 
                                 </h3>
                             </div>
                             <div className="bottom-text">
                                 <h3 className="card-subtitle">
-                                    Things I enjoy designing:
-                                    UX, UI, Web, Apps
+                                Tools I use:
+                                    Miro, Jira, Basecamp, University degree
                                 </h3>
                             </div>
                         </div>
@@ -80,3 +78,5 @@ const Skills = () => {
     );
 };
 export default Skills;
+
+

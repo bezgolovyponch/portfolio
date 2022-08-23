@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='contact-subtitle'>
         <h2 className='subtitle'>
           
-        Interested in collaborating with me?
+        Wanna discuss some business? 
         </h2>
       </div>
       <button id='btn'
@@ -32,9 +32,14 @@ const Footer = () => {
       
     </div >
     <div className='real-footer'>
-        <h3>
+      <div className='social-links'>
+    <a target="blank" href="https://https://github.com/bezgolovyponch/" >
+    <img src="https://www.svgrepo.com/show/341847/github.svg"></img>
+</a>
+</div>
+        <h4>
           Handcrafted by me ® Maxim Svistukhin
-        </h3>
+        </h4>
       </div>
     </div>
     
