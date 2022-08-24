@@ -5,6 +5,7 @@
     .column {
         width: auto !important;
         padding: 10% !important;
+        width: 23rem;
     }
     .column:nth-child(2) {
         border-width: 2px;
@@ -55,11 +56,12 @@
 }
 .column {
     display: flex;
-    width: 26rem;
+    max-width: 26rem;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
     padding: 4%;
+    width: 100%;
     
     /* border-width: 0.2px;
     border-style: solid;
