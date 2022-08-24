@@ -7,9 +7,9 @@
 <p>Clone the project into local</p>
 <p>Install all the npm packages</p> 
 <p>Go into the project folder and type the following command to install all npm packages</p>
-## npm install
+<strong>npm install</strong>
 <p>In order to run the application Type the following command from the root folder in terminal</p>
-## npm start
+<strong>npm start</strong>
 <p>The Application Runs on localhost:3000</p>
 
 <p>Resources</p>
