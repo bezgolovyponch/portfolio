@@ -52,7 +52,7 @@
 
 .img-container {
   position: relative;
-  width: 28rem;
+  max-width: 24rem;
   display: flex;
     justify-content: center;
 }

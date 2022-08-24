@@ -55,11 +55,11 @@
 }
 .column {
     display: flex;
-    width: 30rem;
+    width: 26rem;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    padding: 5%;
+    padding: 4%;
     
     /* border-width: 0.2px;
     border-style: solid;
