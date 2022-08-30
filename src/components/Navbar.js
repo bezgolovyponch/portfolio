@@ -1,5 +1,5 @@
 import React from 'react';
-import myPDF from '../assets/CV_Svistukhin.pdf';
+import myPDF from '../assets/CV_Svistukhinm.pdf';
 
 
 const Navbar = () => {
