@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className='logo-contain'></div>
       <div className='Nav-links'>
         <a className="Nav-link" href="/">
-        <button class="button-28">Download CV</button>
+        <button className="button-28">Download CV</button>
         </a>
       </div>
     </div>
