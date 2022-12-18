@@ -5,7 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0rem 0.1rem 1rem;
+    box-shadow: 0rem 0.01rem 0.5rem;
     /* border-bottom: solid 4px;
     border-top: solid 4px;
     border-color: #757575; */

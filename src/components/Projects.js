@@ -4,10 +4,12 @@ const Projects = () => {
   return (
     <div className="projects-section">
       <div className="projects-wrapper">
-        <h2 className="projects-title">My recent work</h2>
+        <div className="projects-text">
+        <h2 className="projects-title">My recent work:</h2>
         <h2 className="projects-subtitle">
           Here are a few past projects I've done.
         </h2>
+        </div>
         <div className="columns-projects">
           <div className="project">
             <div className="img-container">
