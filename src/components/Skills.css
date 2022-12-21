@@ -29,8 +29,6 @@
   border-radius: 15px;
   background-color: white;
   justify-content: center;
-  box-shadow: 0 2px 2px 0 rgb(#d3d3d3 / 50%), 0 0 0 1px #e6ecf8;
-  border-width: 3px;
   border-style: solid;
   border-color: #d3d3d3;
 }
@@ -43,7 +41,7 @@
   justify-content: center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  box-shadow: 0rem 0.1rem 0.5rem;
+  box-shadow: 0rem 0.01rem 0.5rem;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
