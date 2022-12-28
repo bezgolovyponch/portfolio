@@ -1,8 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-const str = "sgsggs sgsgsggs"
-const result = str.replace(' ', '')
 
 export default function About() {
   return (
