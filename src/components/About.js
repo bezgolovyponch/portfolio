@@ -1,6 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
+const str = "sgsggs sgsgsggs"
+const result = str.replace(' ', '')
+
 export default function About() {
   return (
     <div className="about">
@@ -27,6 +30,7 @@ export default function About() {
         <h1 clas3Name="text-story">
             Hi, I am Max, nice to meet you,
           </h1>
+          <p>         testing: {result}</p>
           <h2 className="text-story"> 
           This page was created to stand out from the other applicants, as well as to show a piece of my work. Whether it came out or not is up to you to decide.
           </h2>
