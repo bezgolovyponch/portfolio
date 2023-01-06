@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from './SvistukhinCVM.pdf';
+import CV from './Svistukhin-CVM.pdf';
 
 const Navbar = () => {
   return (
