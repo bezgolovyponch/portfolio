@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='contact-subtitle'>
         <h2 className='subtitle'>
           
-        Interested in working with me?
+        Interested in my services?
         </h2>
       </div>
       <button id='btn'

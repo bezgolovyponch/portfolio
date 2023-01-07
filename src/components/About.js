@@ -14,7 +14,7 @@ export default function About() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("I design and code beautifully simple things that work.")
+                .typeString("I believe in the power of minimalism and strive to create clean and functional work.")
                 .start();
             }}
           />
@@ -27,10 +27,10 @@ export default function About() {
       <div className="about-story-back">
         <div className="story-contain">
         <h1 className="text-story">
-            Hi, I am Max, nice to meet you,
+        Hi there, I'm Max! I'm thrilled to make your acquaintance.
           </h1>
           <h2 className="text-story"> 
-          This page was created to stand out from the other applicants, as well as to show a piece of my work. Whether it came out or not is up to you to decide.
+          This page was created to give you a more interactive and enjoyable way to learn about my skills and abilities. 
           </h2>
         </div>
       </div>

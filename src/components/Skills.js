@@ -17,8 +17,7 @@ const Skills = () => {
                             </div>
                             <div className="mid-text">
                                 <h3 className="card-subtitle">
-                                    I value simple content structure,
-                                    clean design patterns, and thoughtful interactions.
+                                I prioritize simplicity in content structure, clean design patterns, and thoughtful interactions in my work.
                                 </h3>
                             </div>
                             <div className="bottom-text">
@@ -40,7 +39,7 @@ const Skills = () => {
                             </div>
                             <div className="mid-text">
                                 <h3 className="card-subtitle">
-                                I enjoy designing and building things from scratch, turning ideas into action in a browser.
+                                I enjoy designing and creating projects from the ground up, turning ideas into functional applications in a web browser.
                                 </h3>
                             </div>
                             <div className="bottom-text">
@@ -60,7 +59,7 @@ const Skills = () => {
                                 </h2>
                             </div>
                             <div className="mid-text">
-                                <h3 className="card-subtitle">I like to improve continuously processes I am responsible for and see team happy and motivated.
+                                <h3 className="card-subtitle">I am constantly seeking ways to improve processes and keep my team motivated and satisfied with their work.
                                 </h3>
                             </div>
                             <div className="bottom-text">
