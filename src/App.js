@@ -13,7 +13,7 @@ function App() {
     let frameId;
 
     const animate = () => {
-      // setOpacity(opacity + 0.01);
+      setOpacity(opacity + 0.01);
       frameId = requestAnimationFrame(animate);
     };
 
