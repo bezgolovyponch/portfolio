@@ -14,7 +14,7 @@ export default function About() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("I believe in the power of minimalism and strive to create clean and functional work.")
+                .typeString("I am dedicated to developing minimal, effective solutions.")
                 .start();
             }}
           />

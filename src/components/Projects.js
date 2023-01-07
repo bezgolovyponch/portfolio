@@ -5,7 +5,7 @@ const Projects = () => {
       <div className="projects-wrapper">
         <div className="projects-text">
           <h2 className="projects-subtitle">
-          Take a look at some of my recent projects below - they may not be world-changing, but they get the job done! 
+          Check out a few of my recent projects below - they may not be groundbreaking, but they deliver results. 
           </h2>
         </div>
         <div className="columns-projects">
